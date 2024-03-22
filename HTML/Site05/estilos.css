@@ -1,0 +1,98 @@
+/* Reset de estilos para remover margens e preenchimentos padrão do navegador */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    
+    
+    background-color: #2a4161;
+    
+     /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px; /* Preenchimento interno */
+}
+
+h1 {
+    margin-bottom: 10px; /* Espaço inferior abaixo do título */
+}
+
+nav ul {
+    list-style: none; /* Remover marcadores de lista padrão */
+}
+
+nav ul li {
+    display: inline-block; /* Exibir os itens de lista na mesma linha */
+    margin-right: 10px; /* Espaçamento entre os itens de lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #fff; /* Cor do texto dos links */
+}
+
+/* Estilizar links quando passar o mouse sobre eles */
+nav ul li a:hover {
+    text-decoration: underline; /* Adicionar sublinhado no hover */
+}
+
+.container {
+
+    flex-direction: row;
+    max-height: 800px;
+    max-width: 800px; /* Largura máxima do contêiner */
+    margin: 20px auto; /* Margens superior e inferior automáticas, centralizando o contêiner */
+    padding: 20px; /* Preenchimento interno do contêiner */
+    background-color: #f4f4f4; /* Cor de fundo do contêiner */
+    border: 1px solid #ddd; /* Borda do contêiner */
+}
+
+.container h2 {
+    color: #333; /* Cor do título */
+}
+
+.container p {
+    color: #666; /* Cor do texto */
+}
+
+.img_produto {
+
+
+    justify-content: center;
+    align-items: center;
+    max-height: 800px;
+    width: 200px; /* Largura máxima do contêiner */
+    margin: 20px auto; /* Margens superior e inferior automáticas, centralizando o contêiner */
+    padding: 20px; /* Preenchimento interno do contêiner */
+    background-color: #f4f4f485;
+}
+
+
+.img_produto p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #666;
+}
+
+.img_produto:hover {
+    border: 1px solid #ddd; 
+}
+
+
+
+
+footer {
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px; /* Preenchimento interno do rodapé */
+    background-color:#2a4161; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
